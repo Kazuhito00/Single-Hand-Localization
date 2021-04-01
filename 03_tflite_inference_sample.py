@@ -25,8 +25,10 @@ def get_args():
 
     parser.add_argument(
         "--model",
-        default='02_model/MobileNetV1/SingleHandLocalization_1.0_128.tflite')
-    parser.add_argument("--input_shape", type=int, default=128)
+        # default='02_model/MobileNetV1/SingleHandLocalization_1.0_128.tflite')
+        default='02_model/EfficientNetB0/SingleHandLocalization_224.tflite')
+    # parser.add_argument("--input_shape", type=int, default=128)
+    parser.add_argument("--input_shape", type=int, default=224)
 
     args = parser.parse_args()
 
