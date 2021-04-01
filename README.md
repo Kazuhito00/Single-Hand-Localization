@@ -4,7 +4,7 @@
 <img src="https://user-images.githubusercontent.com/37477845/113296671-bfc6ee80-9334-11eb-8c39-231a8daff3c0.gif" width="45%">　<img src="https://user-images.githubusercontent.com/37477845/113308151-db37f680-9340-11eb-9f30-8efda9a85948.gif" width="45%"><br>
 左図：PC実行 EfficientNet版 ONNXモデル<br>
 右図：Raspberry pi4実行 MobileNet v1版 TensorFlow-Liteモデル<br><br>
-MobileNet v1版はUnity Barracuda上でも動作します。興味のある方は[Unity-Barracuda-SingleHandLocalization-WebGL](https://github.com/Kazuhito00/Unity-Barracuda-SingleHandLocalization-WebGL)を確認ください。
+MobileNet v1版はUnity Barracuda上でも動作します。<br>興味のある方は[Unity-Barracuda-SingleHandLocalization-WebGL](https://github.com/Kazuhito00/Unity-Barracuda-SingleHandLocalization-WebGL)を確認ください。
 
 # Requrement
 * mediapipe 0.8.1 or later ※01_create_dataset.pyを利用する場合のみ
