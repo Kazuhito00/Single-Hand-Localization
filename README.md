@@ -2,7 +2,8 @@
 単一の手の位置推定を行う試験的なモデルです。<br>
 手のXY座標とクラス分類結果(無し、パー、グー)の出力を行います。<br><br>
 <img src="https://user-images.githubusercontent.com/37477845/113296671-bfc6ee80-9334-11eb-8c39-231a8daff3c0.gif" width="45%">　<img src="https://user-images.githubusercontent.com/37477845/113308151-db37f680-9340-11eb-9f30-8efda9a85948.gif" width="45%"><br>
-左図：PC実行 EfficientNet版 ONNXモデル　右図：Raspberry pi4実行 MobileNet v1版 TensorFlow-Liteモデル
+左図：PC実行 EfficientNet版 ONNXモデル<br>
+右図：Raspberry pi4実行 MobileNet v1版 TensorFlow-Liteモデル
 
 # Requrement
 * mediapipe 0.8.1 or later ※01_create_dataset.pyを利用する場合のみ
