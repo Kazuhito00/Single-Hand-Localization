@@ -1,7 +1,7 @@
 # Single-Hand-Localization
 単一の手の位置推定を行う試験的なモデルです。<br>
 手のXY座標とクラス分類結果(無し、パー、グー)の出力を行います。<br>
-<img src="https://user-images.githubusercontent.com/37477845/113296671-bfc6ee80-9334-11eb-8c39-231a8daff3c0.gif" width="50%"><br>
+<img src="https://user-images.githubusercontent.com/37477845/113296671-bfc6ee80-9334-11eb-8c39-231a8daff3c0.gif" width="40%">　<img src="https://user-images.githubusercontent.com/37477845/113308151-db37f680-9340-11eb-9f30-8efda9a85948.gif" width="40%"><br>
 ※上記イメージはEfficientNet版
 
 # Requrement
