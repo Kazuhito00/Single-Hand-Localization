@@ -88,7 +88,7 @@ FPS計測用のモジュールを格納しています。
 　クラスID 1(パー)：28605<br>
 　クラスID 2(グー)：28976<br>
 <br>
-データセットは非公開ですが、mediapipeを利用したデータセットを収集するスクリプト(01_create_dataset.py)は公開しています。
+mediapipeを利用したデータセットを収集するスクリプト(01_create_dataset.py)は公開しています。<br>
 <img src="https://user-images.githubusercontent.com/37477845/113300676-1fbf9400-9339-11eb-8377-79a1d74c4785.gif" width="50%">
 
 # Model
