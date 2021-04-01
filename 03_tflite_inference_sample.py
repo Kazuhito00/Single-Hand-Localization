@@ -92,9 +92,9 @@ def main():
         if class_id == 0 and class_score < 0.5:
             pass
         elif class_id == 1:
-            cv.circle(debug_image, (point_x, point_y), 10, (255, 0, 0), -1)
+            cv.circle(debug_image, (point_x, point_y), 12, (255, 0, 0), -1)
         elif class_id == 2:
-            cv.circle(debug_image, (point_x, point_y), 10, (0, 255, 0), -1)
+            cv.circle(debug_image, (point_x, point_y), 12, (0, 255, 0), -1)
 
         # キー処理(ESC：終了) #################################################
         key = cv.waitKey(1)
@@ -107,7 +107,12 @@ def main():
         cv.putText(
             debug_image,
             "Elapsed Time:" + '{:.1f}'.format(elapsed_time * 1000) + "ms",
-            (10, 30), cv.FONT_HERSHEY_SIMPLEX, 0.8, (0, 255, 0), 2, cv.LINE_AA)
+            (10, 30), cv.FONT_HERSHEY_SIMPLEX, 1.2, (255, 255, 255), 5,
+            cv.LINE_AA)
+        cv.putText(
+            debug_image,
+            "Elapsed Time:" + '{:.1f}'.format(elapsed_time * 1000) + "ms",
+            (10, 30), cv.FONT_HERSHEY_SIMPLEX, 1.2, (0, 0, 0), 2, cv.LINE_AA)
 
         # 画面反映 #############################################################
         cv.imshow('tflite inference sample', debug_image)
