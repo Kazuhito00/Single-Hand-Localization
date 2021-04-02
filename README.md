@@ -1,5 +1,6 @@
 # Single-Hand-Localization
 単一の手の位置推定を行う試験的なモデルです。<br>
+→Raspberry Pi等で動作する軽量なモデルを目指しています<br>
 手のXY座標とクラス分類結果(無し、パー、グー)の出力を行います。<br><br>
 <img src="https://user-images.githubusercontent.com/37477845/113296671-bfc6ee80-9334-11eb-8c39-231a8daff3c0.gif" width="45%">　<img src="https://user-images.githubusercontent.com/37477845/113308151-db37f680-9340-11eb-9f30-8efda9a85948.gif" width="45%"><br>
 左図：PC実行 EfficientNet版 ONNXモデル<br>
