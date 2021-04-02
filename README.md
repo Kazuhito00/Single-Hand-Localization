@@ -10,7 +10,7 @@ MobileNet v1版はUnity Barracuda上でも動作します。<br>興味のある�
 * mediapipe 0.8.1 or later ※01_create_dataset.pyを利用する場合のみ
 * Tensorflow 2.4.0 or later
 * OpenCV 3.4.2 or Later
-* onnxruntime 1.5.2 or later ※03_onnx_inference_sample.py
+* onnxruntime 1.5.2 or later ※03_onnx_inference_sample.pyを利用する場合のみ
 
 # Demo
 Webカメラを使ったデモの実行方法は以下です。<br>
