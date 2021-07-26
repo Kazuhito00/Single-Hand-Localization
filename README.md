@@ -99,6 +99,9 @@ mediapipeを利用したデータセットを収集するスクリプト(01_crea
 モデル構造は以下の通りです。<br>
 <img src="https://user-images.githubusercontent.com/37477845/113304028-98741f80-933c-11eb-8307-083c89358b83.png" width="70%">
 
+# ToDo
+* [ ] FlattenをGlobal Average Poolingに差し替える
+
 # Author
 高橋かずひと(https://twitter.com/KzhtTkhs)
 
